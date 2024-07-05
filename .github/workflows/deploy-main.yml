@@ -20,7 +20,7 @@ jobs:
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           project: nbc.docker/cicd
-          stage: main
+          stage: cicd
           yaml: |
             name: cicd
             app: java@17
