@@ -19,8 +19,8 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: nbc.docker/cicd
-          stage: cicd
+          project: kyungtae43/cicd
+          stage: main
           yaml: |
             name: cicd
             app: java@17
